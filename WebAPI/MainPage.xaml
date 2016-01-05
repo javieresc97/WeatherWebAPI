@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="WebAPI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WebAPI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel VerticalAlignment="Center">
+            <Image Name="TempImage" Width="200" Height="200" HorizontalAlignment="Center"/>
+            <TextBlock Name="TempTextBlock" FontSize="40" HorizontalAlignment="Center"/>
+            <TextBlock Name="DescTextBlock" FontSize="32" HorizontalAlignment="Center"/>
+            <TextBlock Name="LocationTextBlock" FontSize="30" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>
